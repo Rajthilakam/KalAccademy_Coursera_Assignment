@@ -5,16 +5,14 @@
 }
 
 
-body{
-  font-family: 'Lato', sans-serif;  
+body {
+  font-family:"Lobster", cursive;  
 }
 
 .container{
     position: relative;
     top:50px;
-    margin:20px;
-    
-
+    margin:20px;   
 }
 
 .row {
@@ -24,41 +22,45 @@ body{
 
 #menuTitle{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;    
     
 }
 
 .item{
     position: relative;
     top:0;
-    border: solid 3px black;
+    border: solid 2px black;
     padding:25px;
     margin:15px;
-    background-color: grey;
+    background-color: lightgray;
 }
 
 .itemtitle{
   position: absolute;
   top:0;
   right:0px;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
   padding:6px 90px;
+  font-size:20px;
 
 }
 
 .item p {
-  text-align: justify;
+  
   margin-top: 20px;
-  font-size: 100%;
+  font-size: 20px;
+  line-height: 1.4;
+  padding-top: 10px;
 }
 
 #itemone{
-  background-color: plum;
+  background-color: lightseagreen;
+  
 }
 
 #itemtwo{
-  background-color: brown;
+  background-color:lightskyblue;
 }
 
 #itemthree{
@@ -108,3 +110,20 @@ body{
     
 }
 
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12{
+   width: 100%;
+   float: left;
+ }
+}
+
+@media(min-width:767px){
+  .col-lg-12{
+    width:100%;
+    float:left;
+  }
+}

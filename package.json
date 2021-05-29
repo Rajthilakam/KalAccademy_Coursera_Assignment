@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Rajthilakam/KalAccademy_Coursera_Assignment#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
