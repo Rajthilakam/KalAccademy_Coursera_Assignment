@@ -9,7 +9,30 @@ body{
    height: 1000px;
 }
 
+#nav-header {
+    background-color:rgb(238, 229, 231);
+    color:white;
+    border-radius: 0;
+    border: 0;
+}
+
 .navbar-brand {
     font-size: 2.6em;
+    
    
+}
+
+.navbar-nav a {
+    font-style: italic;
+    text-align: center;
+    font-size:1.6em;
+    color:black;
+}
+
+.menutitle{
+    color:lavender;
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
