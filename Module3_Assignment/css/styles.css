@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 #bckimg{
@@ -29,38 +30,46 @@
     color:black;
 }
 
-.menutitle{
-    
+.menutitle{    
     margin:50px;
     margin-bottom: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-
 }
+
+.menutitle::after {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 100px;
+  }
 
 .underline{
     text-decoration: underline;
-    margin-top:10px;
-    
+    text-underline-position: under;
+    margin-top:10px;   
 }
 
 .menu-container {
-    border: 2px solid black;
-    margin:10px;
+    
+    margin:20px;
     padding:10px;
-    background-color: burlywood;
+    background-color: rgb(247, 235, 220);  
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
     
 }
 
-.menu-list {
-    
+.menu-container.hover {
+    transform: scale(1.05);
+}
+
+.menu-list {    
     margin-top:10px;
-    font-style: italic;
-    font-family:Arial, Helvetica, sans-serif;
     padding:5px;
-
 }
 
-p{
+p {
     padding:10px;
 }
